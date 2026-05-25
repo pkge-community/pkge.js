@@ -1,4 +1,4 @@
-# pkge-client
+# [pkge-client](https://www.npmjs.com/package/pkge-client)
 
 Unofficial NodeJS/TypeScript client for the pkge.net API.
 
