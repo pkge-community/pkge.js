@@ -1,0 +1,33 @@
+{
+  "name": "pkge-client",
+  "version": "0.1.0",
+  "description": "An unofficial reversed-engineered client for the pkge.net API",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bluscream/pkge-client.git"
+  },
+  "keywords": [
+    "pkge",
+    "tracking",
+    "parcel"
+  ],
+  "author": "Pkge Reverse Engineer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Bluscream/pkge-client/issues"
+  },
+  "homepage": "https://github.com/Bluscream/pkge-client#readme",
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^18.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
